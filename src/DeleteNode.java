@@ -28,6 +28,8 @@
 
 public class DeleteNode {
 
+    //Tells a new way to code, but is pretty stupid with all the restrictions
+    //all in all, thumbs down
     public void deleteNode(ListNode node) {
         node.val = node.next.val;
         node.next = node.next.next;
